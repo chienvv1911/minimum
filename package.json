@@ -1,0 +1,20 @@
+{
+  "name": "minimum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chienvv1911/minimum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chienvv1911/minimum/issues"
+  },
+  "homepage": "https://github.com/chienvv1911/minimum#readme"
+}
