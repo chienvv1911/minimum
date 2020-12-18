@@ -4,7 +4,7 @@ import dotenv from 'dotenv'
 import morgan from 'morgan'
 import exphbs from 'express-handlebars'
 import path from 'path'
-import fs from 'fs'
+
 const __dirname = path.resolve();
 const app = express()
 
@@ -13,6 +13,7 @@ const corsOptions = {
     origin: 'http://localhost:5000'
 }
 
+app.use(express.static(path.join(__dirname, '/backend/public/')))
 app.engine('handlebars', exphbs())
 app.set('view engine', 'handlebars')
 app.set('views', path.join(__dirname, '/backend/resources/views'))
